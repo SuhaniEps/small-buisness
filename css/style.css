@@ -1,0 +1,50 @@
+.active {
+    color: rgb(0, 60, 255);
+}
+.mingler-normal {
+    font-family: "mingler", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.mingler-medium {
+    font-family: "mingler", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+}
+.mingler-bold {
+    font-family: "mingler", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.grid-container {
+    display: grid;
+    grid-gap: -15px;
+    grid-template-columns: 1fr 0.75fr 0.22fr 1fr;
+    grid-template-rows: 1fr auto;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 30px;
+}
+
+.image-section {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    padding-top: 70px;
+    padding-left: 350px;
+}
+
+.title-section {
+    grid-column: 2 / span 3;
+    grid-row: 1;
+    padding-top: 50px;
+    padding-right: 400px;
+}
+
+.subtitle-section {
+    grid-column: 3 / span 3;
+    grid-row: 2;
+    margin-top: -15px;
+    padding-right: 400px;
+}
