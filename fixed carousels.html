@@ -7,21 +7,19 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="css/style.css">
-      <title>Home</title>
+      <title>Document</title>
       <style>
+  /* MAKE THE TOP TITLE AN IMAGE AND INCLUDE A MAP FROM EMBEDDING IT FROM GOOGLE MAPS */
   body{
       background-color: rgba(125, 165, 125, 0.333);
   }
-  
   nav a:hover {
     color: black;
   }
-
   #demo, #carousel2 {
-      width: 70%;
-      height: 50%;
+      width: 50%;
+      height: 30%;
       margin: 0 100px;
-      padding-top: 100px;
   }
 
   .carousel-inner img {
@@ -36,54 +34,41 @@
       object-fit: cover;
   }
   .carousel-indicators {
-      bottom: -0px;
+      bottom: -20px;
   }
-  /* .carousel-wrapper {
+  .carousel-wrapper {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-  } */
-  .container-fluid {
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    }
+  }
 
   .background-image-div {
     background-image: url('images/patty pan veg.webp');
-    filter: grayscale(20%) brightness(90%);
-    opacity: 0.8;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 250px; width: 1280px;
-    color: rgb(255, 255, 255); 
+    height: 250px; width: 1500px;
+    color: rgb(255, 255, 255, 0.9);
+    
   }
-  .right-text {
-    text-align: right;
-    justify-content: right;
-  }
-  .col {
-    padding: 15px;
-  }
-  
     </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-sm navbar-light nav-fill" style="background-color: #a5caad">
+        <div class="container-fluid">
             <ul class="nav a:hover">
                 <li class="nav-item">
-                    <a class="nav-link mingler-normal" href="index.html" style="font-weight: bold; color: black">Home</a>
+                    <a class="nav-link active" href="index.html" style="font-weight: bold; color: black">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mingler-normal" href="find our products.html" style="color: black">Find Our Products</a>
+                    <a class="nav-link" href="find our products.html" style="color: black">Find Our Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mingler-normal" href="about us.html" style="color: black">About Us</a>
+                    <a class="nav-link" href="about us.html" style="color: black">About Me</a>
                 </li>         
             </ul>
+        </div>
     </nav>
     <div class="grid-container">
       <div class="background-image-div">
@@ -102,23 +87,26 @@
         </div>
       </div>
     </div>
-  <button class="btn btn-dark mt-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" style="font-size: x-large; margin-top: 100px;">
+  <button class="btn btn-outline-dark mt-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" style="font-size: x-large">
       ▸
   </button>
+    
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
-    <div class="offcanvas-header" style="background-color: rgba(125, 165, 125, 0.333)">
+    <div class="offcanvas-header" style="background-color: rgba(171, 205, 171, 0.333)">
         <h5 class="mingler-medium" style="font-size: xx-large;" id="offcanvasMenuLabel">Patty Pan</h5>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-    <div class="offcanvas-body" style="background-color: rgba(125, 165, 125, 0.333)">
+    <div class="offcanvas-body" style="background-color: rgba(171, 205, 171, 0.333)">
       <ul class="list-unstyled">
         <li><a href="index.html" class="mingler-normal">Home</a></li>
+        <li><a href="catering.html" class="mingler-normal">Catering</a></li>
+        <li><a href="cooking directions.html" class="mingler-normal">Cooking Directions</a></li>
         <li><a href="find our products.html" class="mingler-normal">Find our Products</a></li>
         <li><a href="about us.html" class="mingler-normal">About Us</a></li>
       </ul>
       <br>
       <a class="btn btn-outline-dark" href="www.https://pattypandirect.com/" role="button">Order Here</a>
-      <a class="btn btn-outline-dark" href="find our products.html" role="button">Market Schedule</a>
+      <a class="btn btn-outline-dark" href="#" role="button" style="text-align: center;">Market Schedule</a>
     </div>
   </div>
     <br>
@@ -137,13 +125,14 @@
             <a class="btn btn-dark" href="https://pattypandirect.com/" role="button">Order Here</a>
         </div>
         <div class="col">
-            <h2 class="mingler-normal right-text" style="padding-top: 200px">Find Us at Farmer's Markets</h2>
-            <p class="right-text">
+            <h2 class="mingler-normal" style="text-align: right; padding-top: 200px;">Find Us at Farmer's Markets</h2>
+            <p>
                 Stop by our grill for fresh quesadillas, sizzling local veggies, and steaming, hot tamales.
                 Stock up on our Pantry items, including fresh flour tortillas, frozen tamales, and frozen burritos.
             </p>
-            <a class="btn btn-dark" href="find our products.html" role="button" style="margin-left: 420px;">Market Schedule</a>
+            <a class="btn btn-dark" href="#" role="button" style="margin-left: 480px;">Market Schedule</a>
         </div>
+      </div>
       <div class="row">
         <div class="col-md-6">
           <div class="carousel-wrapper">

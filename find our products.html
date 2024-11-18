@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/pux4ykl.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Find Our Products</title>
+    <style>
+    body{
+        background-color: rgba(125, 165, 125, 0.333);
+    }
+    nav a:hover {
+    color: rgb(88, 81, 81);
+    }
+    .background-image-div {
+    background-image: url('images/tomatoes.jpg');
+    filter: grayscale(20%) brightness(90%);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px; width: 1280px;
+    color: rgb(255, 255, 255); 
+    }
+    .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .styled-table thead tr {
+    background-color: #a3c8ab;
+    color: #000000;
+    text-align: left;
+    }
+    .styled-table th,
+    .styled-table td {
+    padding: 12px 15px;
+    }
+    .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    }
+    .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+    }
+    .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #f3f3f3;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light nav-fill" style="background-color: #a5caad; color: black;">
+        <div class="container-fluid">
+            <ul class="nav a:hover">
+                <li class="nav-item">
+                    <a class="nav-link mingler-normal" href="index.html" style="color: black">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mingler-normal" href="find our products.html" style="font-weight: bold; color: black">Find Our Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mingler-normal" href="about us.html" style="color: black">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="grid-container">
+        <div class="background-image-div">
+            <div class="find-our-products-title grid-item">
+                <h1 class="mingler-medium" style="font-size: 50pt; padding-right: 50px;">
+                    Find Our Products
+                </h1>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-dark mt-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" style="font-size: x-large; margin-top: 150px;">
+        ▸
+    </button>   
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+      <div class="offcanvas-header" style="background-color: rgba(125, 165, 125, 0.333)">
+          <h5 class="mingler-medium" style="font-size: xx-large;" id="offcanvasMenuLabel">Patty Pan</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body" style="background-color: rgba(125, 165, 125, 0.333)">
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="nav-link mingler-normal" style="color: #000000;">Home</a></li>
+          <li><a href="find our products.html" class="nav-link mingler-normal">Find our Products</a></li>
+          <li><a href="about us.html" class="nav-link mingler-normal">About Us</a></li>
+        </ul>
+        <br>
+        <a class="btn btn-outline-dark" href="https://www.pattypandirect.com/" role="button">Order Here</a>
+        <a class="btn btn-outline-dark" href="#" role="button" style="text-align: center;">Market Schedule</a>
+      </div>
+    </div>
+    <br>
+    <br>
+    <h2 class="mingler-normal" style="text-align: center; padding-top: 60px; font-size: 30pt;">
+        Home Delivery or Pickup 
+    </h2>
+    <p style="text-align: center; font-size: 13pt; margin-right: 250px; margin-left: 250px;">
+        Order our Pantry items by 11:59pm Mondays for Friday home delivery
+        or pickup from our Shoreline kitchen Fridays between 10am-2pm.
+    </p>
+    <a class="btn btn-dark btn-lg" href="https://www.pattypandirect.com/" role="button" style="margin-left: 530px;">Shop Patty Pan Direct</a>
+    <br>
+    <br>
+    <div class="grid-container2">
+        <div class="farmers-markets-section grid-item">
+            <h2 class="mingler-normal" style="text-align: left; padding-top: 60px; font-size: 30pt; padding-left: 50px;">
+                Seattle Area Farmers Markets
+            </h2>
+            <p style="text-align: center; font-size: 13pt; margin-right: 100px; margin-left: 50px;">
+                Stop by our fragrant grill booth for famous quesadillas, grilled veggie bowls, and hot tamales.
+            </p>
+            <table class="styled-table" style="margin-left: 90px; font-size: 12pt;">
+                <thead>
+                    <tr>
+                        <th style="text-align: center;">Location</th>
+                        <th style="text-align: center;">Day</th>
+                        <th style="text-align: center;">Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>University District</td>
+                        <td>Saturday</td>
+                        <td>Year-round</td>
+                    </tr>
+                    <tr>
+                        <td>Ballard</td>
+                        <td>Sunday</td>
+                        <td>Year-round</td>
+                    </tr>
+                    <tr>
+                        <td>Wallingford</td>
+                        <td>Wednesday</td>
+                        <td>May to October</td>
+                    </tr>
+                    <tr>
+                        <td>Lake City</td>
+                        <td>Thursday</td>
+                        <td>June to October</td>
+                    </tr>
+                    <tr>
+                        <td>Magnolia</td>
+                        <td>Saturday</td>
+                        <td>June to October</td>
+                    </tr>
+                    <tr>
+                        <td>Lake Forest Park</td>
+                        <td>Sunday</td>
+                        <td>May to September</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="grocery-store-sections grid-item">
+            <h2 class="mingler-normal" style="text-align: right; padding-top: 60px; font-size: 30pt; padding-right: 120px;">
+                Grocery Stores and CSAs
+            </h2>
+            <p style="text-align: center; font-size: 13pt; margin-right: 90px; margin-left: 60px;">
+                Stock up on our take home pantry items, including fresh flour tortillas, tamale packs, and frozen burritos.
+            </p>
+            <table class="styled-table" style="margin-left: 90px; font-size: 12pt;">
+                <thead>
+                    <tr>
+                        <th style="text-align: center;">Grocery Store</th>
+                        <th style="text-align: center;">Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PCC Community Markets</td>
+                        <td>All locations</td>
+                    </tr>
+                    <tr>
+                        <td>Central Co-op</td>
+                        <td>Seattle</td>
+                    </tr>
+                    <tr>
+                        <td>Carnation Farms</td>
+                        <td>Carnation</td>
+                    </tr>
+                    <tr>
+                        <td>21 Acres</td>
+                        <td>Woodinville</td>
+                    </tr>
+                    <tr>
+                        <td>Local Yokels</td>
+                        <td>Home Delivery</td>
+                    </tr>
+                    <tr>
+                        <td>Full Circle Organics</td>
+                        <td>Home Delivery</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <h2 class="mingler-normal" style="text-align: center; padding-top: 60px; font-size: 30pt;">
+        Wholesale Ordering
+    </h2>
+    <br>
+    <p style="text-align: center; font-size: 13pt; margin-right: 250px; margin-left: 250px;">
+        Patty Pan offers direct wholesale sales for businesses in the Seattle area. Contact us about setting up a direct wholesale account.
+    </p>
+    <a class="btn btn-dark btn-lg" href="mailto:pattypanorders@gmail.com" role="button" style="margin-left: 580px;">Email Us</a>
+    <br>
+    <br>
+    <br>
+    <p style="text-align: center; font-size: 13pt; margin-right: 250px; margin-left: 250px;">
+        For all of King, Skagit, and Whatcom counties, wholesale ordering is available through Puget Sound Food Hub.
+    </p>
+    <a class="btn btn-dark btn-lg" href="https://www.pugetsoundfoodhub.com/" role="button" style="margin-left: 570px;">Shop PSFH</a>
+    <br>
+    <br>
+</body>
+</html>
