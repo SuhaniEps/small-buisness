@@ -279,22 +279,27 @@
         <div class="col-md-4 mb-3" style="margin-top: 50px;">
           <h4>Contact Us</h4>
           <p>
-            123 Cooperative Lane<br>
-            Seattle, WA 98101<br>
-            Phone: (123) 456-7890<br>
-            Email: <a href="mailto:pattypanorders@gmail.com" class="text-dark">info@pattypancoop.com</a>
+            15550 27th Ave NE<br>
+            Shoreline, WA 98155<br>
+            Phone: (206) 782-1558<br>
+            Email: <a href="mailto:pattypanorders@gmail.com" class="text-dark">pattypanorders@gmail.com</a>
           </p>
         </div>
         <div class="col-md-4 mb-3" style="margin-top: 90px;">
           <h4>Follow Us</h4>
-          <p>
-            <a href="https://www.facebook.com/pattypancoop" target="_blank" style="color: #000000;">Facebook</a> |
-            <a href="https://www.instagram.com/pattypancoop" target="_blank" style="color: #000000;">Instagram</a> |
-            <a href="https://www.twitter.com/pattypancoop" target="_blank" style="color: #000000;">Twitter</a>
-          </p>
+          <div>
+            <button onclick="openSocial('https://www.facebook.com/pattypancoop')" class="btn btn-outline-dark btn-sm mx-1">Facebook</button>
+            <button onclick="openSocial('https://www.instagram.com/pattypancoop')" class="btn btn-outline-dark btn-sm mx-1">Instagram</button>
+            <button onclick="openSocial('https://www.twitter.com/pattypancoop')" class="btn btn-outline-dark btn-sm mx-1">Twitter</button>
+          </div>
         </div>
       </div>
     </div>
   </footer>      
 </body>
+<script>
+  function openSocial(url) {
+    window.open(url, '_blank');
+  }
+</script>
 </html>
