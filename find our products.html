@@ -9,66 +9,77 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Find Our Products</title>
     <style>
-    html, body {
-      overflow-x: hidden;
-    }
-    body{
-        background-color: rgba(125, 165, 125, 0.333);
-    }
-    nav a:hover {
-    color: rgb(88, 81, 81);
-    }
-    .background-image-div {
-    background-image: url('images/tomatoes.jpg');
-    filter: grayscale(20%) brightness(90%);
-    opacity: 0.88;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 250px; width: 1280px;
-    color: rgb(255, 255, 255); 
-    }
-    .styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    }
-    .styled-table thead tr {
-    background-color: #a3c8ab;
-    color: #000000;
-    text-align: left;
-    }
-    .styled-table th,
-    .styled-table td {
-    padding: 12px 15px;
-    }
-    .styled-table tbody tr {
-    border-bottom: 1px solid #dddddd;
-    }
-    .styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-    }
-    .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #f3f3f3;
-    }
+        html,
+        body {
+            overflow-x: hidden;
+        }
+
+        body {
+            background-color: rgba(125, 165, 125, 0.333);
+        }
+
+        nav a:hover {
+            color: rgb(88, 81, 81);
+        }
+
+        .background-image-div {
+            background-image: url('images/tomatoes.jpg');
+            filter: grayscale(20%) brightness(90%);
+            opacity: 0.88;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 250px;
+            width: 1280px;
+            color: rgb(255, 255, 255);
+        }
+
+        .styled-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .styled-table thead tr {
+            background-color: #a3c8ab;
+            color: #000000;
+            text-align: left;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .styled-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #f3f3f3;
+        }
     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-light nav-fill" style="background-color: #a5caad; color: black;">
-            <ul class="nav a:hover">
-                <li class="nav-item">
-                    <a class="nav-link mingler-normal" href="index.html" style="color: black">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mingler-normal" href="find our products.html" style="font-weight: bold; color: black">Find Our Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mingler-normal" href="about us.html" style="color: black">About Us</a>
-                </li>
-            </ul>
+        <ul class="nav a:hover">
+            <li class="nav-item">
+                <a class="nav-link mingler-normal" href="index.html" style="color: black">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mingler-normal" href="find our products.html" style="font-weight: bold; color: black">Find Our Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mingler-normal" href="about us.html" style="color: black">About Us</a>
+            </li>
+        </ul>
     </nav>
     <div class="grid-container">
         <div class="background-image-div">
@@ -79,37 +90,28 @@
             </div>
         </div>
     </div>
-    <button class="btn btn-dark mt-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" style="font-size: x-large; margin-top: 150px;">
-        ▸
-    </button>   
+    <button class="btn btn-dark mt-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" style="font-size: x-large; margin-top: 150px;">▸</button>
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
-      <div class="offcanvas-header" style="background-color: rgba(125, 165, 125, 0.333)">
-          <h5 class="mingler-medium" style="font-size: xx-large;" id="offcanvasMenuLabel">Patty Pan</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body" style="background-color: rgba(125, 165, 125, 0.333)">
-        <ul class="list-unstyled">
-          <li><a href="index.html" class="nav-link mingler-normal" style="color: #000000;">Home</a></li>
-          <li><a href="find our products.html" class="nav-link mingler-normal">Find our Products</a></li>
-          <li><a href="about us.html" class="nav-link mingler-normal">About Us</a></li>
-        </ul>
-        <br>
-        <a class="btn btn-outline-dark" href="https://www.pattypandirect.com/" role="button">Order Here</a>
-        <a class="btn btn-outline-dark" href="#" role="button" style="text-align: center;">Market Schedule</a>
-      </div>
+        <div class="offcanvas-header" style="background-color: rgba(125, 165, 125, 0.333)">
+            <h5 class="mingler-medium" style="font-size: xx-large;" id="offcanvasMenuLabel">Patty Pan</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="background-color: rgba(125, 165, 125, 0.333)">
+            <ul class="list-unstyled">
+                <li><a href="index.html" class="nav-link mingler-normal" style="color: #000000;">Home</a></li>
+                <li><a href="find our products.html" class="nav-link mingler-normal">Find our Products</a></li>
+                <li><a href="about us.html" class="nav-link mingler-normal">About Us</a></li>
+            </ul>
+            <br>
+            <a class="btn btn-outline-dark" href="https://www.pattypandirect.com/" role="button">Order Here</a>
+            <a class="btn btn-outline-dark" href="#" role="button" style="text-align: center;">Market Schedule</a>
+        </div>
     </div>
-    <br>
-    <br>
-    <!-- <div style="background-color: #c7dccb;"> -->
-    <h2 class="mingler-normal" style="text-align: center; padding-top: 60px; font-size: 30pt;">
-        Home Delivery or Pickup 
-    </h2>
+    <h2 class="mingler-normal" style="text-align: center; padding-top: 60px; font-size: 30pt;">Home Delivery or Pickup</h2>
     <p style="text-align: center; font-size: 13pt; margin-right: 250px; margin-left: 250px;">
-        Order our Pantry items by 11:59pm Mondays for Friday home delivery
-        or pickup from our Shoreline kitchen Fridays between 10am-2pm.
+        Order our Pantry items by 11:59pm Mondays for Friday home delivery or pickup from our Shoreline kitchen Fridays between 10am-2pm.
     </p>
     <a class="btn btn-dark btn-lg" href="https://www.pattypandirect.com/" role="button" style="margin-left: 530px;">Shop Patty Pan Direct</a>
-    <!-- </div> -->
     <br>
     <br>
     <br>
@@ -117,12 +119,8 @@
     <div style="background-color: #c7dccb;">
         <div class="grid-container2">
             <div class="farmers-markets-section grid-item">
-                <h2 class="mingler-normal" style="text-align: left; padding-top: 40px; font-size: 30pt; padding-left: 50px;">
-                    Seattle Area Farmers Markets
-                </h2>
-                <p style="text-align: center; font-size: 13pt; margin-right: 100px; margin-left: 50px;">
-                    Stop by our fragrant grill booth for famous quesadillas, grilled veggie bowls, and hot tamales.
-                </p>
+                <h2 class="mingler-normal" style="text-align: left; padding-top: 40px; font-size: 30pt; padding-left: 50px;">Seattle Area Farmers Markets</h2>
+                <p style="text-align: center; font-size: 13pt; margin-right: 100px; margin-left: 50px;">Stop by our fragrant grill booth for famous quesadillas, grilled veggie bowls, and hot tamales.</p>
                 <table class="styled-table" style="margin-left: 90px; font-size: 12pt;">
                     <thead>
                         <tr>
@@ -166,12 +164,8 @@
                 </table>
             </div>
             <div class="grocery-store-sections grid-item">
-                <h2 class="mingler-normal" style="text-align: right; padding-top: 40px; font-size: 30pt; padding-right: 120px;">
-                    Grocery Stores and CSAs
-                </h2>
-                <p style="text-align: center; font-size: 13pt; margin-right: 90px; margin-left: 60px;">
-                    Stock up on our take home pantry items, including fresh flour tortillas, tamale packs, and frozen burritos.
-                </p>
+                <h2 class="mingler-normal" style="text-align: right; padding-top: 40px; font-size: 30pt; padding-right: 120px;">Grocery Stores and CSAs</h2>
+                <p style="text-align: center; font-size: 13pt; margin-right: 90px; margin-left: 60px;">Stock up on our take home pantry items, including fresh flour tortillas, tamale packs, and frozen burritos.</p>
                 <table class="styled-table" style="margin-left: 90px; font-size: 12pt; margin-bottom: 80px;">
                     <thead>
                         <tr>
@@ -209,11 +203,7 @@
             </div>
         </div>
     </div>
-    <br>
-    <h2 class="mingler-normal" style="text-align: center; padding-top: 60px; font-size: 30pt;">
-        Wholesale Ordering
-    </h2>
-    <br>
+    <h2 class="mingler-normal" style="text-align: center; padding-top: 60px; font-size: 30pt;">Wholesale Ordering</h2>
     <p style="text-align: center; font-size: 13pt; margin-right: 250px; margin-left: 250px;">
         Patty Pan offers direct wholesale sales for businesses in the Seattle area. Contact us about setting up a direct wholesale account.
     </p>
@@ -225,39 +215,35 @@
         For all of King, Skagit, and Whatcom counties, wholesale ordering is available through Puget Sound Food Hub.
     </p>
     <a class="btn btn-dark btn-lg" href="https://www.pugetsoundfoodhub.com/" role="button" style="margin-left: 570px; margin-bottom: 50px;">Shop PSFH</a>
-    <br>
-       <br>
-       <footer class="text-dark py-4" style="background-color: #b9d1be;">
+    <footer class="text-dark py-4" style="background-color: #b9d1be;">
         <div class="container">
-          <div class="row text-center">
-            <div class="col-md-4 mb-3" style="margin-top: 70px;">
-              <h3>Patty Pan Cooperative</h3>
-              <p>Empowering communities through food and cooperation.</p>
+            <div class="row text-center">
+                <div class="col-md-4 mb-3" style="margin-top: 70px;">
+                    <h3>Patty Pan Cooperative</h3>
+                    <p>Empowering communities through food and cooperation.</p>
+                </div>
+                <div class="col-md-4 mb-3" style="margin-top: 50px;">
+                    <h4>Contact Us</h4>
+                    <p>
+                        15550 27th Ave NE<br>
+                        Shoreline, WA 98155<br>
+                        Phone: (206) 782-1558<br>
+                        Email: <a href="mailto:pattypanorders@gmail.com" class="text-dark">pattypanorders@gmail.com</a>
+                    </p>
+                </div>
+                <div class="col-md-4 mb-3" style="margin-top: 90px;">
+                    <h4>Follow Us</h4>
+                    <div>
+                        <button onclick="openSocial('https://www.instagram.com/pattypancooperative/#')" class="btn btn-outline-dark btn-sm mx-1">Instagram</button>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 mb-3" style="margin-top: 50px;">
-              <h4>Contact Us</h4>
-              <p>
-                15550 27th Ave NE<br>
-                Shoreline, WA 98155<br>
-                Phone: (206) 782-1558<br>
-                Email: <a href="mailto:pattypanorders@gmail.com" class="text-dark">pattypanorders@gmail.com</a>
-              </p>
-            </div>
-            <div class="col-md-4 mb-3" style="margin-top: 90px;">
-              <h4>Follow Us</h4>
-              <div>
-                <button onclick="openSocial('https://www.facebook.com/pattypancoop')" class="btn btn-outline-dark btn-sm mx-1">Facebook</button>
-                <button onclick="openSocial('https://www.instagram.com/pattypancoop')" class="btn btn-outline-dark btn-sm mx-1">Instagram</button>
-                <button onclick="openSocial('https://www.twitter.com/pattypancoop')" class="btn btn-outline-dark btn-sm mx-1">Twitter</button>
-              </div>
-            </div>
-          </div>
         </div>
-      </footer>      
-    </body>
-    <script>
-      function openSocial(url) {
+    </footer>
+</body>
+<script>
+    function openSocial(url) {
         window.open(url, '_blank');
-      }
-    </script>
+    }
+</script>
 </html>
